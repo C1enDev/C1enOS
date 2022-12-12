@@ -1,0 +1,58 @@
+.. C1enOS documentation master file, created by
+   sphinx-quickstart on Fri Jun 17 23:12:00 2022.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+欢迎来到C1enOS的文档！
+====================================
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 入门
+
+   introduction/index
+   introduction/build_system
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 内核层
+
+   kernel/boot/index
+   kernel/core_api/index
+   kernel/locking/index
+   kernel/process_management/index
+   kernel/sched/index
+   kernel/memory_management/index
+   kernel/filesystem/index
+   kernel/debug/index
+   kernel/ktest/index
+   kernel/cpu_arch/index
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 应用层
+
+   userland/libc/index
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 系统调用api文档
+
+   syscall_api/index
+
+.. toctree::
+   :maxdepth: 1
+   :caption: DragonOS社区
+
+   community/code_contribution/index
+   community/contact/index
+   community/ChangeLog/index
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
